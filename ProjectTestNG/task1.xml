@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+	<parameter name="url" value="https://corridor.pramati.com/" />
+
+	<test name="myfirstTest">
+		<classes>
+			<class name="com.Task1.Task1" />
+		</classes>
+	</test>
+
+	<!-- <test name="mysecondTest"> <classes> <class name="com.Task1.Task1"> 
+		<methods> <include name="login" /> </methods> </class> </classes> </test> 
+		<test name="mythirdTest"> <classes> <class name="com.Task1.Task1"> <methods> 
+		<include name="logout" /> </methods> </class> </classes> </test> -->
+
+</suite>

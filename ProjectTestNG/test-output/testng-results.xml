@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onTestStart Reporter.log]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart Reporter.log]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart Reporter.log]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart Reporter.log]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart Reporter.log]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-08-14T05:27:19Z" name="Suite1" finished-at="2019-08-14T05:27:19Z" duration-ms="76">
+    <groups>
+    </groups>
+    <test started-at="2019-08-14T05:27:19Z" name="myfirstTest" finished-at="2019-08-14T05:27:19Z" duration-ms="76">
+      <class name="com.Task5.Task5_1">
+        <test-method signature="composeMail()[pri:0, instance:com.Task5.Task5_1@25a65b77]" started-at="2019-08-14T05:27:19Z" name="composeMail" description="This is composeMail test" finished-at="2019-08-14T05:27:19Z" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart Reporter.log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method signature="draftMail()[pri:0, instance:com.Task5.Task5_1@25a65b77]" started-at="2019-08-14T05:27:19Z" name="draftMail" description="This is draftMail test" finished-at="2019-08-14T05:27:19Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart Reporter.log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- draftMail -->
+        <test-method signature="setUp()[pri:0, instance:com.Task5.Task5_1@25a65b77]" started-at="2019-08-14T05:27:19Z" name="setUp" description="This is setup test" finished-at="2019-08-14T05:27:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart Reporter.log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:com.Task5.Task5_1@25a65b77]" started-at="2019-08-14T05:27:19Z" name="login" description="This is login test" finished-at="2019-08-14T05:27:19Z" depends-on-methods="com.Task5.Task5_1.setUp" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart Reporter.log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.Task5.Task5_1@25a65b77]" started-at="2019-08-14T05:27:19Z" name="logout" description="This is logout test" finished-at="2019-08-14T05:27:19Z" depends-on-methods="com.Task5.Task5_1.login" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart Reporter.log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.Task5.Task5_1 -->
+    </test> <!-- myfirstTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

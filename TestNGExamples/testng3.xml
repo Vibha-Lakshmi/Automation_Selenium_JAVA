@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<test name="myfirstTest">
+		<groups>
+		<!-- <dependencies>
+		<group name="sanity" depends-on="smoke"/>
+		</dependencies> -->
+			<run>
+				<exclude name="smoke" />
+				<include name="sanity" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.Examples.Test7" />
+			<!-- <class name="com.Examples.Test5" /> <class name="com.Examples.Test2" 
+				/> <class name="com.Examples.Test3" /> <class name="com.Examples.Test4" /> -->
+		</classes>
+	</test>
+
+
+</suite>
